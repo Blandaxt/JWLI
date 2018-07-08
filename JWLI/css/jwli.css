@@ -1,0 +1,321 @@
+*{
+  box-sizing: border-box;
+}
+header{
+  width: 100%;
+  height: 768px;
+  border: 3px solid black;
+  clear: both;
+}
+.menu{
+  height: 60px;
+  width: 100%;
+  float: left;
+  border: 1px solid blue;
+}
+.menu li{
+    position: relative;
+    left: -57px;
+    margin: 5px;
+    margin-left: 79px;
+    color: rgba(161, 158, 162);
+    list-style: none;
+    float: left;
+    font-size: 19px;
+}
+.menu a{
+  text-decoration: none;
+  color: rgb(161, 158, 162);
+}
+.apply{
+  border: 1px rgb(161, 158, 162);
+  background: black;
+  padding: 3px 15px 3px 15px;
+}
+.apply a{
+  color: white;
+}
+.extra{
+  display: none;
+  border: 2px solid black;
+  background: white;
+  float: left;
+}
+.midh{
+  float: left;
+  width: 100%;
+  height: 700px;
+  border: 2px solid pink;
+  background: rgb(241, 243, 245);
+}
+.lefth{
+  float: left;
+  width: 50%;
+  height: 700px;
+  border: 1px solid purple;
+  padding: 20px;
+}
+.lefth img{
+  width: 100%;
+  height: 326px;
+  float: left;
+  position: relative;
+  right: 41px;
+  padding: 36px;
+  padding-left: 154px;
+  padding-right: 49px;
+  margin: 5px
+}
+.lefth a{
+  text-decoration: none;
+  color: white;
+}
+.lefth h1{
+  width: 100%;
+  font-size: 29px;
+  margin-bottom: -6px;
+}
+.lefth p{
+  font-size: 21px;
+  margin-bottom: 56px;
+}
+.lefth label{
+  font-size: 13px;
+  margin: 6px;
+}
+.lefth input{
+  width: 59%;
+  height: 40px;
+  padding-left: 9px;
+}
+.submit{
+  border: 1px solid gray;
+  border-radius: 4px;
+  margin-left: 20px;
+  padding: 8px 34px 8px 34px;
+  background: gray;
+  color: white;
+}
+.submit a{
+  text-decoration: none;
+}
+.righth{
+  width: 50%;
+  height: 700px;
+  border: 1px solid brown;
+  float: left;
+  padding: 10px 25px 0px 25px;
+}
+.righth img{
+  width: 100%;
+  height: 600px;
+  float: left;
+  margin: 89px 13px 0px 10px;
+  color: gray;
+}
+.goals{
+  width: 100%;
+  height: 450px;
+  border: 2px solid yellow;
+  float: left;
+  padding: 50px 150px 70px 150px;
+}
+.goals h1{
+  font-size: 26px;
+  color: black;
+  margin: 20px 25px 60px 25px;
+  text-align: center;
+}
+.goals span{
+  font-weight: bold;
+  border-top: 2px solid pink;
+  padding-top: 10px;
+}
+.goals p{
+  font-size: 18px;
+  width: 50%;
+  float: left;
+  padding: 5px  0px 40px 20px;
+}
+.goals small{
+  margin: 10px 0px 20px 45px;
+  color: lightgray;
+  align-items: center;
+  padding: 0px 50px 0px 50px;
+}
+.history{
+  width: 100%;
+  height: 800px;
+  border: 3px solid orange;
+  float: left;
+  background: rgb(241, 243, 245);
+  padding: 10px 0px 10px 30px;
+}
+.history h2{
+  font-size: 20px;
+  font-weight: bold;
+}
+.rightmain{
+  width: 57%;
+  height: 700px;
+  border: 2px solid blue;
+  float: left;
+  padding: 10px 20px 30px 15px;
+}
+.rightmaoin p{
+  margin-top: 10px;
+  font-size: 15px;
+}
+.leftmain{
+  width: 40%;
+  height: 700px;
+  border: 2px solid red;
+  float: left;
+}
+.caption{
+  width: 100%;
+  height: 350px;
+  float: left;
+  border: 1px solid black;
+  margin-top: 10px;
+}
+.caption img{
+  width: 100%;
+  height: 300px;
+  float: left;
+  margin-bottom: 10px;
+}
+.caption span{
+  color: lightgray;
+  position: relative;
+  left: 186px;
+  font-style: italic;
+}
+.identity{
+  width: 100%;
+  height: 957px;
+  border: 3px solid gold;
+  float: left;
+  padding: 10px 10px 20px 10px;
+}
+.identity h2{
+  font-size: 20px;
+  font-weight: bold;
+  position: relative;
+  left: 572px;
+}
+.founder{
+  width: 93.3%;
+  float: left;
+  height: 400px;
+  margin: 30px 10px 20px 28px;
+  padding: 8px 0px 8px 10px;
+  border: 1px solid lightgray;
+}
+.founder img{
+  width: 30%;
+  height: 350px;
+  float: left;
+  padding: 6px 20px 15px 45px;
+}
+.info{
+  width: 64%;
+  height: 350px;
+  float: left;
+  border: 1px solid black;
+  padding: 10px 0px 5px 20px;
+}
+.founder h3{
+  font-weight: bold;
+  font-size: 14px;
+  margin: 2px 0px 20px 0px;
+}
+.founder p{
+  font-size: 13px;
+  width: 70%;
+  height: 350px;
+}
+.support{
+  width: 45%;
+  height: 350px;
+  float: left;margin: 10px 10px 20px 28px;
+  float: left;
+  border: 1px solid brown;
+}
+.support h4{
+  color: gray;
+  font-size: 25px;
+  margin-bottom: -5px;
+  font-family: initial;
+}
+.support p{
+  font-size: 13px;
+}
+.support small{
+  font-size: 9px;
+  border-top: 1px solid gray;
+}
+footer{
+  width: 100%;
+  height: 600px;
+  border: 1px solid black;
+  clear: both;
+}
+.topf{
+  height: 79px;
+  width: 100%;
+  float: left;
+  border: 1px solid green;
+  background: lightgray;
+  color: white;
+  padding: 7px 20px 7px 20px;
+}
+.topf label{
+  margin: 13px 167px 0px 100px;
+  font-size: 27px;
+  display: inline-flex;
+}
+.sub{
+  border: 1px solid gray;
+  border-radius: 4px;
+  margin-left: 20px;
+  padding: 20px 42px 17px 42px;
+  color: white;
+  background: gray;
+}
+.topf a{
+  text-decoration: none;
+}
+.topf input{
+  width: 35%;
+  height: 54px;
+  padding-left: 20px;
+  font-size: 22px;
+}
+.bottomf{
+  background: gray;
+  width: 100%;
+  height: 150px;
+  border: 1px darkgreen;
+  padding: 100px 50px 20px 113px;
+  color: white;
+  border-bottom: 1px solid white;
+}
+.bottomf a{
+  text-decoration: none;
+  font-size: 13px;
+  color: white;
+}
+.bottomf small{
+  margin: 5px 409px 5px 1px;
+  font-size: 14px;
+  float: left;
+}
+.bottomf li{
+  list-style: none;
+  margin: 5px 10px 10px 10px;
+  float: left;
+}
+.bottomf ul{
+  display: inline;
+}
